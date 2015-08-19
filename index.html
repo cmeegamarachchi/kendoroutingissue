@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RouteIssue</title>
+    <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+</head>
+<body kendo-mobile-application id="main" k-hash-bang="true" k-skin="'flat'" k-transition="'slide'" k-initial="'app/viewB.html'" k-hash-bang="true">
+
+    <kendo-mobile-layout k-id="'baselayout'">
+    </kendo-mobile-layout>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers.js"></script>
+    <script src="app/services.js"></script>
+    <script src="js/cordovaAppBoot.js"></script>
+    <script src="cordova.js"></script>
+
+    <script>
+        cordovaAppBoot.initialize();
+    </script>
+</body>
+</html>

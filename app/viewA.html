@@ -1,0 +1,12 @@
+<kendo-mobile-view id="viewA" k-layout="'baselayout'" ng-controller="ctrlA as ca">
+
+    This is view {{ca.name}}
+
+    <kendo-mobile-footer>
+        <kendo-mobile-tab-strip>
+            <a href="app/viewA.html">A</a>
+            <a href="app/viewB.html">B</a>
+            <a ng-click="ca.gotoC()">C</a>
+        </kendo-mobile-tab-strip>
+    </kendo-mobile-footer>
+</kendo-mobile-view>
